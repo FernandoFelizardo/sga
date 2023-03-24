@@ -1,4 +1,4 @@
-package com.br.sga;
+package br.com.sga;
 
 import org.springframework.context.annotation.Configuration;
 import org.springframework.web.servlet.config.annotation.CorsRegistry;
