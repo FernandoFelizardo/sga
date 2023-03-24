@@ -1,4 +1,6 @@
 package br.com.sga.entities;
+import java.util.Date;
+
 import javax.persistence.*;
 import javax.persistence.GeneratedValue;
 import javax.persistence.GenerationType;
@@ -13,7 +15,9 @@ public class Cidade {
 	@Id
 	@GeneratedValue(strategy = GenerationType.IDENTITY)
 	private Long id;
-	private String nome;
-	private String estado;
+	private String nomeCidade;
+	private String nomeEstado;
+	private Date dtCadastro;
+	private String nomeUsuarioCadastro;
 	
 }
