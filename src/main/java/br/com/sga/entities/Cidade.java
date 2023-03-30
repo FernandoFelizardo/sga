@@ -19,5 +19,4 @@ public class Cidade {
 	private String nomeEstado;
 	private Date dtCadastro;
 	private String nomeUsuarioCadastro;
-	private String teste;
 }
